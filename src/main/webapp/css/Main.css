@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Denistina;
+    src:url("../fonts/Denistina.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: TrixieCyr-Light;
+    src:url("../fonts/TrixieCyr-Light.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: TrixieCyr-Cameo;
+    src:url("../fonts/TrixieCyr-Cameo.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: TrixieCyr-Plain;
+    src:url("../fonts/TrixieCyr-Plain.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Kir-Sans-Cyrillic;
+    src:url("../fonts/Kir Sans Cyrillic.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background: bisque;
+}

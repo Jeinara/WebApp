@@ -1,0 +1,135 @@
+body{
+    background: bisque url("../img/SearchForm/kniga.png") no-repeat;
+}
+.tool-bar{
+    margin: 40px 0 0 0;
+}
+.search-box{
+    margin-left:45px;
+}
+.search-box p{
+    font-family: Denistina;
+    color: #41516b;
+    margin: 0 0 0 35px;
+    padding: 0;
+    font-size: 24pt;
+}
+.search-note{
+    background-image: url("../img/SearchForm/Poiskovoy-list.png");
+    width: 326px;
+    height: 123px;
+}
+.search-note input{
+    border: none;
+    border-bottom: 1px solid #41516b;
+    outline: none;
+    background: none;
+    margin: 47px 0 0 50px;
+    width: 250px;
+    height: 45px;
+    font-size: 32pt;
+    font-family: Kir-Sans-Cyrillic;
+    color: #94001c;
+}
+.menu{
+    height: 215px;
+    width: 183px;
+    margin: 0 0 0 50px;
+    float: left;
+    background-image: url("../img/SearchForm/Sortirovochny-list.png");
+}
+.menu ul{
+    display: block;
+    margin: 30px 0 0 20px;
+    padding: 0 15px 0 0;
+}
+.sort{
+    list-style: none;
+    font-family: TrixieCyr-Light;
+    color: #27324a;
+    display: block;
+    font-size: 15pt;
+    min-height: 10px;
+}
+.first{
+    font-family: TrixieCyr-Cameo;
+}
+.content{
+    float: left;
+}
+.table{
+    max-width: 550px;
+    float: left;
+}
+.table:after{
+    clear: both;
+}
+.table ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.hide{
+    display: none;
+}
+.fade{
+    filter: grayscale(100%) opacity(60%);
+    transition: filter 0.5s;
+}
+.decoration_first{
+    background: url("../img/SearchForm/kartonka_verkhushka.png");
+    height: 30px;
+    width: 566px;
+}
+.decoration_last{
+    background: url("../img/SearchForm/kartonka_niz.png");
+    height: 46px;
+    width: 566px;
+}
+.decoration_title{
+    background: url("../img/SearchForm/kartonka_zagolovok.png");
+    text-align: center;
+    font-family: Denistina;
+    font-size: 28pt;
+    color: #27324a;
+    height: 58px;
+    width: 566px;
+    padding: 0;
+    margin: 0;
+}
+.card_set{
+    background: url("../img/SearchForm/kartonka_napolnitel.png");
+    width: 566px;
+    height: 221px;
+}
+.card{
+
+    list-style: none;
+    background-image: url("../img/SearchForm/Card.png");
+    height: 195px;
+    width: 150px;
+    display: block;
+    margin: 5px 10px 5px 25px;
+    padding: 0;
+}
+.card img{
+    margin: 7px 0 0 6px;
+}
+.card div{
+    margin: 0 0 0 3px;
+    height: 33px;
+    width: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    color: aliceblue;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    font-family: TrixieCyr-Light;
+}
+.content:after{
+    clear: both;
+}
