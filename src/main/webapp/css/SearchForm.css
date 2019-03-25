@@ -1,5 +1,6 @@
 body{
-    background: bisque url("../img/SearchForm/kniga.png") no-repeat;
+    background-image: url("../img/SearchForm/kniga.png");
+    background-repeat: no-repeat;
 }
 .tool-bar{
     margin: 40px 0 0 0;
@@ -13,6 +14,7 @@ body{
     margin: 0 0 0 35px;
     padding: 0;
     font-size: 24pt;
+    cursor: default;
 }
 .search-note{
     background-image: url("../img/SearchForm/Poiskovoy-list.png");
@@ -50,6 +52,7 @@ body{
     display: block;
     font-size: 15pt;
     min-height: 10px;
+    cursor: pointer;
 }
 .first{
     font-family: TrixieCyr-Cameo;
@@ -80,6 +83,7 @@ body{
     background: url("../img/SearchForm/kartonka_verkhushka.png");
     height: 30px;
     width: 566px;
+
 }
 .decoration_last{
     background: url("../img/SearchForm/kartonka_niz.png");
@@ -96,6 +100,7 @@ body{
     width: 566px;
     padding: 0;
     margin: 0;
+    cursor: default;
 }
 .card_set{
     background: url("../img/SearchForm/kartonka_napolnitel.png");
@@ -103,7 +108,6 @@ body{
     height: 221px;
 }
 .card{
-
     list-style: none;
     background-image: url("../img/SearchForm/Card.png");
     height: 195px;
@@ -111,6 +115,7 @@ body{
     display: block;
     margin: 5px 10px 5px 25px;
     padding: 0;
+    cursor: pointer;
 }
 .card img{
     margin: 7px 0 0 6px;
@@ -122,6 +127,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.boss{
+    filter: invert(100%);
+}
+.boss img{
+    filter: invert(100%);
 }
 .name{
     color: aliceblue;

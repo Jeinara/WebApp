@@ -1,4 +1,4 @@
-package servlet;
+package webProject.bean;
 
 public class Character {
 
@@ -6,7 +6,14 @@ public class Character {
     private String membership;
     private int floor;
     private String img;
+    private boolean isBoss;
 
+    public boolean isBoss() {
+        return isBoss;
+    }
+    public void setBoss(boolean boss) {
+        isBoss = boss;
+    }
     public String getName() {
         return name;
     }

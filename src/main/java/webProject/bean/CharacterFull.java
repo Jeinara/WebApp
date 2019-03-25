@@ -1,21 +1,37 @@
-package servlet;
+package webProject.bean;
 
 public class CharacterFull extends Character {
 
-    String age;
-    String sex;
-    String nationality;
-    String profession;
-    String post;
-    String social;
-    String character;
-    String portrait;
-    String skills;
-    String bio;
-    String phobias;
-    String die;
-    String goal;
+    private String nickname;
+    private String sex;
+    private String post;
+    private String social;
+    private String character;
+    private String portrait;
+    private String skills;
+    private String bio;
+    private String phobias;
+    private String die;
+    private String goal;
+    private String age;
+    private String sin;
 
+    public CharacterFull(){}
+
+    public CharacterFull(Character chr){
+        this.setName(chr.getName());
+        this.setBoss(chr.isBoss());
+        this.setMembership(chr.getMembership());
+        this.setFloor(chr.getFloor());
+        this.setImg(chr.getImg());
+    }
+
+    public String getNickname() {
+        return nickname;
+    }
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
     public String getAge() {
         return age;
     }
@@ -28,17 +44,11 @@ public class CharacterFull extends Character {
     public void setSex(String sex) {
         this.sex = sex;
     }
-    public String getNationality() {
-        return nationality;
+    public String getSin() {
+        return sin;
     }
-    public void setNationality(String nationality) {
-        this.nationality = nationality;
-    }
-    public String getProfession() {
-        return profession;
-    }
-    public void setProfession(String profession) {
-        this.profession = profession;
+    public void setSin(String sin) {
+        this.sin = sin;
     }
     public String getPost() {
         return post;
